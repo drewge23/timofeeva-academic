@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync:publications": "node scripts/sync-publications.mjs",
+    "import:publications": "python3 scripts/import_doc_publications.py"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
